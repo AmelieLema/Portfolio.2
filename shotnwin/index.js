@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', function() {
             let target = document.createElement('img');
             target.id = 'target';
             let randomNumber = Math.floor(Math.random() * 493) + 1;
-            target.src = 'work/shotnwin/assets/' + randomNumber + '.png';
+            target.src = 'https://raw.githubusercontent.com/AmelieLemaire/portfolio/refs/heads/main/work/shotnwin/assets/100.png' + randomNumber + '.png';
 
             let randomRow, randomCol;
             do {
